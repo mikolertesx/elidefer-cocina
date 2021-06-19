@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+.pancarta {
+	color: #0000ff;
+	background: gray;
+	margin-bottom: 4px;
+	padding: 12px;
+}
+
+.pancarta p {
+	color: white;
+}
+
+.pancarta img {
+	width: 80%;
+	margin: 10px;
+}
+
+.platillos {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	background: lightgray;
+	/* display: block; */
+}
+
+.platillos img {
+	height: 80px;
+	/* width: 80px; */
+	/* margin: 10px; */
+}
+
+.details {
+	padding: 50px;
+	background: gray;
+}
+
+footer {
+	background: black;
+	display: flex;
+	justify-content: space-around;
+}
+
+footer a {
+	color: white;
+	text-decoration: none;
+}
